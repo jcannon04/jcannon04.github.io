@@ -1,5 +1,7 @@
 # Markdown Notes
 
+Markdown helps you to format your text in a md file on github. You can use mark down to add links, images and other content into your document. It also let you stylize text and format your text logically with headings paragraphs and lists.
+
 ## Headings
 
 Headings begin with 1-6 #'s. ! being largest, 6 being smallest
@@ -20,4 +22,7 @@ to make __bold text__ wrap text with two underscores or asterisks
 
 to make text *italicized* wrap text in a sing underscore or asterisks
 
-
+## Things I want to learn more about
+* block quotes
+* code 
+* images
