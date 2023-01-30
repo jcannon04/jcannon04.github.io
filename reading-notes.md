@@ -14,10 +14,10 @@ to create a line break simply end a line with one or more spaces and type return
 
 ## bold text
 
-to make __bold text__ wrap text with two underscores or astericks
+to make __bold text__ wrap text with two underscores or asterisks
 
 ## italics
 
-to make text *italized* wrap text in a sing underscore or asterisks
+to make text *italicized* wrap text in a sing underscore or asterisks
 
 
