@@ -7,8 +7,8 @@ The growth mindset is all about being open to improvement and learning. Intellig
 
 ## 3 Growth reminders
 
-Stay Focused - Don't give into temptation. Be aware when you are just trying to avoid hardwork and remember no pain no gain.
+* Stay Focused - Don't give into temptation. Be aware when you are just trying to avoid hardwork and remember no pain no gain.
 
-Be Inspired - Be inspired by the success and knowledge of your coworkers. Don't be envious it gets you nowhere
+* Be Inspired - Be inspired by the success and knowledge of your coworkers. Don't be envious it gets you nowhere
 
-Listen - Don't get mad when you hear criticism. Listen and determin if you can learn from what people have to say
+* Listen - Don't get mad when you hear criticism. Listen and determin if you can learn from what people have to say
