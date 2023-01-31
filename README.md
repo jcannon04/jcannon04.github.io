@@ -1,12 +1,12 @@
 # Welcome, My name is Josh Cannon
 
-## Thanks for visiting my github page check out my [portfolio page](github.com/jcannon04/)
+## Thanks for visiting my github page check out my [portfolio page](www.github.com/jcannon04/)
 
 ### Table of Contents
 
-* [Markdown Notes](jcannon04.github.io/reading-notes/reading-notes/mark-down-notes/)
-* [Revisions In The Cloud](jcannon04.github.io/reading-notes/reading-notes/revisions-and-the-cloud/)
-* [The Coders Computer](jcannon04.github.io/reading-notes/reading-notes/the-coders-computer/)
+* [Markdown Notes](www.jcannon04.github.io/reading-notes/reading-notes/mark-down-notes/)
+* [Revisions In The Cloud](www.jcannon04.github.io/reading-notes/reading-notes/revisions-and-the-cloud/)
+* [The Coders Computer](www.jcannon04.github.io/reading-notes/reading-notes/the-coders-computer/)
 
 #### Growth Mindset
 
