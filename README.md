@@ -4,9 +4,9 @@
 
 ### Table of Contents
 
-* [Markdown Notes](https://jcannon04.github.io/reading-notes/reading-notes/mark-down-notes/)
-* [Revisions In The Cloud](https://jcannon04.github.io/reading-notes/reading-notes/revisions-and-the-cloud/)
-* [The Coders Computer](https://jcannon04.github.io/reading-notes/reading-notes/the-coders-computer/)
+* [Markdown Notes](./reading-notes/mark-down-notes.md)
+* [Revisions In The Cloud](./reading-notes/revisions-and-the-cloud.md)
+* [The Coders Computer](./reading-notes/the-coders-computer.md)
 
 #### Growth Mindset
 
