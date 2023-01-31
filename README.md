@@ -1,12 +1,39 @@
 # Welcome, My name is Josh Cannon
 
-## Thanks for visiting my github page check out my [portfolio page](https://github.com/jcannon04/)
+## Thanks for visiting my github pages website check out my [portfolio page](https://github.com/jcannon04/)
+
+This site is a collection of notes from codecamp bootcamp 2023
 
 ### Table of Contents
 
-* [Markdown Notes](./reading-notes/mark-down-notes.md)
-* [Revisions In The Cloud](./reading-notes/revisions-and-the-cloud.md)
-* [The Coders Computer](./reading-notes/the-coders-computer.md)
+#### Class 102 Reading Notes
+
+* [Markdown Notes](./102/class01.md)
+* [Revisions In The Cloud](./102/class03.md)
+* [The Coders Computer](./102/class02.md)
+* [Structure Web Pages Wtih HTML](./102/class04.md)
+* [class 05](./102/class05.md)
+* [class 06](./102/class06.md)
+* [class 07](./102/class07.md)
+* [class 08](./102/class08.md)
+
+#### Class 201 Reading Notes
+
+* [class 01](./201/class01.md)
+* [class 02](./201/class02.md)
+* [class 03](./201/class03.md)
+* [class 04](./201/class04.md)
+* [class 05](./201/class05.md)
+* [class 06](./201/class06.md)
+* [class 07](./201/class07.md)
+* [class 08](./201/class08.md)
+* [class 09](./201/class09.md)
+* [class 10](./201/class10.md)
+* [class 11](./201/class11.md)
+* [class 12](./201/class12.md)
+* [class 13](./201/class13.md)
+* [class 14](./201/class14.md)
+* [class 15](./201/class15.md)
 
 #### Growth Mindset
 
