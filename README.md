@@ -1,6 +1,6 @@
 # Welcome, My name is Josh Cannon
 
-## Thanks for visiting my github page check out my [portfolio page](www.github.com/jcannon04/)
+## Thanks for visiting my github page check out my [portfolio page](https://github.com/jcannon04/)
 
 ### Table of Contents
 
