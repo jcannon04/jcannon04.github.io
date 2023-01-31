@@ -10,7 +10,7 @@ Headings begin with 1-6 #'s. ! being largest, 6 being smallest
 
 create paragraphs by adding 1 or more empty line between lines of text. For best practice do not intent paragraph unless they are in a list
 
-## line breaks 
+## line breaks
 
 to create a line break simply end a line with one or more spaces and type return
 
@@ -23,6 +23,7 @@ to make __bold text__ wrap text with two underscores or asterisks
 to make text *italicized* wrap text in a sing underscore or asterisks
 
 ## Things I want to learn more about
+
 * block quotes
-* code 
+* code
 * images

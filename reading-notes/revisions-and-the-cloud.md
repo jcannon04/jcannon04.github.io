@@ -3,7 +3,7 @@
 ## Version Control
 
 Version control systems allows you to keep track of changes in a file or set of files. They allow you to see what changes have been made over time and enable yo to
-revert to an older version if need be. 
+revert to an older version if need be.
 
 ### Local Version Control
 
@@ -40,4 +40,3 @@ Git makes it extremely difficult to lose data. It is very unlikely that a commit
 ### States
 
 Git has files have 3 main stage. Staged, Modified, Commited. Commited files are securely stored in a local database. Modified files have been changed but not commited to database. Staged files version have been flagged to be commited in the next snapshot
-
