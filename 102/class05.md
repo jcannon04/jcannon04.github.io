@@ -15,3 +15,9 @@ h1 {
 `h1` is a **selector** that choose the HTML element that is to be styled
 `{}` followed by curly braces that contain **declarations**
 `color: red;` a declaration. All declarations are made of **property** and **value** pairs seperated by a : followed by a ;
+
+## Things I Want To Know More About
+
+* CSS Grid and Flexbox
+* Psuedo Selector
+* Media Queries
