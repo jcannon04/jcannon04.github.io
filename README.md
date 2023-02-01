@@ -1,6 +1,6 @@
 # Welcome, My name is Josh Cannon
 
-## Thanks for visiting my github pages website check out my [portfolio page](https://github.com/jcannon04/)
+## Thanks for visiting my github pages website check out my [profile page](https://github.com/jcannon04/)
 
 This site is a collection of notes from codecamp bootcamp 2023
 
