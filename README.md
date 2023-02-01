@@ -13,7 +13,7 @@ This site is a collection of notes from codecamp bootcamp 2023
 * [The Coders Computer](./102/class02.md)
 * [Structure Web Pages With HTML](./102/class04.md)
 * [Design Web Pages With CSS](./102/class05.md)
-* [class 06](./102/class06.md)
+* [Dynamic Web Pages With Javascript](./102/class06.md)
 * [class 07](./102/class07.md)
 * [class 08](./102/class08.md)
 
