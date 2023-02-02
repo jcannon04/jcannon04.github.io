@@ -10,7 +10,7 @@ My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack
 
 ### Table of Contents
 
-1. Class 102 Reading Notes
+1. [Class 102 Reading Notes](./102)
 
     * [Markdown](./102/class01)
     * [Revisions In The Cloud](./102/class03)
@@ -21,7 +21,7 @@ My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack
     * [class 07](./102/class07)
     * [class 08](./102/class08)
 
-2. Class 201 Reading Notes
+2. [Class 201 Reading Notes](./201)
 
     * [class 01](./201/class01)
     * [class 02](./201/class02)
