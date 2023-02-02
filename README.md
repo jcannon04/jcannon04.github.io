@@ -30,7 +30,7 @@ My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack
     * [class 05](./201/class05)
     * [class 06](./201/class06)
     * [class 07](./201/class07)
-    * [class 08](./201/class08
+    * [class 08](./201/class08)
     * [class 09](./201/class09)
     * [class 10](./201/class10)
     * [class 11](./201/class11)
