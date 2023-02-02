@@ -39,18 +39,20 @@ My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack
     * [class 14](./201/class14/class14.md)
     * [class 15](./201/class15/class15.md)
 
-#### Motivation Material`!`
+### Motivation Material
 
 Here is some motivation to keep you going while you study
 
-##### Growth Mindset
+#### Growth Mindset
 
-The growth mindset is all about being open to improvement and learning. Intelligence and talent are not something we are born with, but something we can work towards achieving.  You should not be afraid of change or avoid learning when things get dificult. You should not be jealous of coworkers that are "smarter" or "more sucessful" than you, instead embrace them as part of the team and try to learn from them. You should try to avoid falling into common traps like giving into to distractions when the going gets tough or being envious of your co-workers. Above all you should be a lifelong learner and work together
+Your intelligence and talent are not fixed traits. They can be developed through perserverance and effort. Everyone encounters challenges, and most people give up or avoid the issue at hand. You can embrace the challenge, learn to be mindful of your avoidance and instead continue through until you complete the objective. Sure when someone encounters an obstacle they can avoid it completely. They can go grab a cup of coffee or vacuum their living room, but those with a growth mindset like you can ignore that chance for instant gratification and continue with the task at hand. When the alarm clock goes off early in the morning someone else might realize how much effort it requires to get out of bed and go to work, or they could be like you, jump out of bed and seize the day. Because you know that you can sweat a little now and then enjoy a sense of accomplishment, or you can stay in bed and suffer from regret later on. The right choice is obvious. It's not even a real question for a go getter like yourself. It's easy to hear about what you did right, but it's not so easy to hear what you've done wrong. Fortuneately, you know that every one makes mistakes and does sub optimal work sometimes, and you also know that feedback and constructive criticism gives you the knowledge you need grow, learn and move forward.
 
-##### 3 Growth reminders
+#### Growth reminders
 
 * Stay Focused - Don't give into temptation. Be aware when you are just trying to avoid hardwork and remember no pain no gain.
 
 * Be Inspired - Be inspired by the success and knowledge of your coworkers. Don't be envious it gets you nowhere
 
-* Listen - Don't get mad when you hear criticism. Listen and determin if you can learn from what people have to say
+* Listen - Don't get mad when you hear criticism. Listen and determine if you can learn from what people have to say
+
+* Challenge Accepted - Embrace the challenging aspects of your work. Again, stay focused on the ends and see them through
