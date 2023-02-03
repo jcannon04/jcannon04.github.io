@@ -267,7 +267,7 @@ Your first footnote[^1]
 
 Another footnote with multiple lines in the description[^2]
 
-And finally using a word instead of a number[text]
+And finally using a word instead of a number[^text]
 
 [^1]: I did it! 
 [^2]: If you want to use more than one line 
