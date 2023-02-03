@@ -181,7 +181,7 @@ insert code here
 ```
 **syntax highlighting**
 
-code blocks offer syntax highlighting for many programming languages and other types of code. To add syntax highlighting for a code block just write the name of the language after the triple backticks but before the new line
+With some markdown renderers, code blocks offer syntax highlighting for many programming languages and other types of code. To add syntax highlighting for a code block just write the name of the language after the triple backticks but before the new line. How you specify the language may differ from renderer ot renderer if they support it all.
 ````markdown
 ```javascript
 console.log("hello, world!");
@@ -245,6 +245,38 @@ int main() {
     return 0;
 }
 ```
+
+## Footnotes
+
+Footnotes aren't officially part of markdown, but are supported by GFM. To make a footnote use square brackets with a caret symbol and a number or word to link to the reference.
+'
+```markdown
+Your first footnote[^1]
+
+Another footnote with multiple lines in the description[^2]
+
+And finally using a word instead of a number[text]
+
+[^1]: I did it!
+[^2]: if you want to use more than one line
+  be certain to include 2 spaces after each line break
+[text]: I told you that you did'nt have to use numbers
+```
+Your first footnote[^1]
+
+
+Another footnote with multiple lines in the description[^2]
+
+And finally using a word instead of a number[text]
+
+[^1]: I did it!
+[^2]: if you want to use more than one line
+  be certain to include 2 spaces after each line break
+[text]: 
+    I told you that you did'nt have to use numbers. They will still show up numbered in your text
+    but this can make it easier for you (the author) to identify. You can also use this 
+    "4 spaces after the newline" syntax
+
 ## Things I want to learn more about
 
 * block quotes
