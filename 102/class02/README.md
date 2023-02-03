@@ -69,11 +69,45 @@ Line 3. tells us the extra information we asked for by using the `-l` option
 
 Now that we know where we are and where we can go from here. The next thing we need to know is how to get there. That is where **paths** come in. There are two types of paths we use to describe where we want to go in the file system. **relative paths** and **absolute paths**
 
-1. Absolute paths alway start with a / and specify a location relative to the root directory
-2. Relative paths dont start with a / and specify a location relative our current location
+1. Absolute paths always start with a `/` and specify a location relative to the root directory
+2. Relative paths do not start with a `/` and specify a location relative our current location
+
+Some building blocks for paths
+* `~` the tilde represents your home directory `cd ~` will take you to your home directory, but it it such a common command you can just drop the tilde. The `cd` command with not arguments will take you home.
+
+* `.` The dot represents your current directory. `cd .` will keep keep you in your current directory
+
+* `..` The dotdot represents the directory that is one level above you in the file system hierarchy. Your parent directory
+
+```
+1. Joshuas-MacBook-Air:linux-lesson joshuacannon$ pwd
+2. /Users/joshuacannon/Documents/linux-lesson
+3. Joshuas-MacBook-Air:linux-lesson joshuacannon$ cd
+4. Joshuas-MacBook-Air:~ joshuacannon$ pwd
+5. /Users/joshuacannon
+6. Joshuas-MacBook-Air:~ joshuacannon$ cd ~
+7. Joshuas-MacBook-Air:~ joshuacannon$ pwd
+8. /Users/joshuacannon
+9. Joshuas-MacBook-Air:~ joshuacannon$ cd .
+10. Joshuas-MacBook-Air:~ joshuacannon$ pwd
+11. /Users/joshuacannon
+12. Joshuas-MacBook-Air:~ joshuacannon$ cd ..
+13. Joshuas-MacBook-Air:Users joshuacannon$ pwd
+14. /Users
+```
+
+the above terminal output shows how the ~, ., and .. will help you move through the filesystem
+
+lines 1 - 2. print our current working directory
+lines 3 - 5. move to home directory using the `cd` command with no argument
+lines 5 - 8. we get the same result as above when we use `cd` with the tilde
+lines 9 - 11. using the `cd` command with a dot keeps us in the same directory
+lines 12 - 14 using the the .. moves us to the parent directory
+
+Quick Tip: You type in paths using tab completion. Type the first few letters of where you are trying to go then hit tab and the terminal will auto-complete the path for you. If it doesn't work then there are either no options or more than one possible. Hit tab again to see your choices.
 
 ## Things I want to know more about
 
-* add building blocks for paths ~, ., ..
-* add cd command info and examples of use with relative and absolute path
+* How files work in linux
+**resources:**
 * see https://ryanstutorials.net/linuxtutorial/navigation.php

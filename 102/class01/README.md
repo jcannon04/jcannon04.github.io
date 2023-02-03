@@ -168,7 +168,7 @@ inline code is surrounded by backticks `insert code here`.
 **code blocks**
 
 ````markdown
-Code blocks are suround by triple backticks
+Code blocks are surround by triple backticks
 
 ```
 insert code here
@@ -181,7 +181,7 @@ insert code here
 ```
 **syntax highlighting**
 
-With some markdown renderers, code blocks offer syntax highlighting for many programming languages and other types of code. To add syntax highlighting for a code block just write the name of the language after the triple backticks but before the new line. How you specify the language may differ from renderer ot renderer if they support it all.
+With some markdown renderers, code blocks offer syntax highlighting for many programming languages and other types of code. To add syntax highlighting for a code block just write the name of the language after the triple backticks but before the new line. How you specify the language may differ from renderer to renderer if they support it all.
 ````markdown
 ```javascript
 console.log("hello, world!");
@@ -260,7 +260,7 @@ And finally using a word instead of a number[text]
 [^1]: I did it!
 [^2]: if you want to use more than one line
   be certain to include 2 spaces after each line break
-[text]: I told you that you did'nt have to use numbers
+[text]: I told you that you didn’t have to use numbers
 ```
 Your first footnote[^1]
 
@@ -273,7 +273,7 @@ And finally using a word instead of a number[^text]
 [^2]: If you want to use more than one line 
     be certain to include 2 spaces after each line break
 [^text]:  
-    I told you that you did'nt have to use numbers. They will still show up numbered in your text
+    I told you that you didn’t have to use numbers. They will still show up numbered in your text
     but this can make it easier for you (the author) to identify. You can also use this 
     "4 spaces after the newline" syntax
  
@@ -281,7 +281,7 @@ And finally using a word instead of a number[^text]
 
 ## Tables
 
-Tables are not part of Markdown but are include in GFM. You can use table to organize and present some simple data in stead of having to copy a spredsheet from some other application
+Tables are not part of Markdown but are include in GFM. You can use table to organize and present some simple data in stead of having to copy a spreadsheet from some other application
 
 ```markdown
 | Col 1 | Col 2 | Col 3 |
@@ -289,12 +289,12 @@ Tables are not part of Markdown but are include in GFM. You can use table to org
 |left   |center |right  |
 |very   |simple |table  |
 
-You don't need the exterior pipes (|). This table is formatted very well in the markdown, but you can use less pretty markdown as you follow the basic syntax. You need atleast 3 dashes under the each header column
+You don't need the exterior pipes (|). This table is formatted very well in the markdown, but you can use less pretty markdown as you follow the basic syntax. You need at least 3 dashes under the each header column
 
 Col 1 | Col 2 | Col 3 
 ---|---|---
 still|renders |okay
-less|orgaized|table  
+less|organized|table  
 ```
 
 | Col 1 | Col 2 | Col 3 |
@@ -302,14 +302,14 @@ less|orgaized|table
 |left   |center |right  |
 |very   |simple |table  |
 
-You don't need the exterior pipes (|). This table is formatted very well in the markdown, but you can use less pretty markdown as you follow the basic syntax. You need atleast 3 dashes under the each header column
+You don't need the exterior pipes (|). This table is formatted very well in the markdown, but you can use less pretty markdown as you follow the basic syntax. You need at least 3 dashes under the each header column
 
 Col 1 | Col 2 | Col 3 
 ---|---|---
 still|renders |okay
-less|orgaized|table  
+less|organized|table  
 
-## Blockquotes
+## Block quotes
 
 ```markdown
 > Every line of a block quote
@@ -377,8 +377,11 @@ you can also use a normal link as seen in the link section
 ## Things I want to learn more about
 
 
-* block quotes
-* code
-* images
+* Other Markdown Flavors
+* Markdown Specification
+
+**resources**
+
+* [GFM Specification](https://github.github.com/gfm/)
 
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.

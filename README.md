@@ -13,7 +13,7 @@ My name is Josh Cannon. I'm a Nashville native living in Memphis. I'm a full-sta
 1. [Class 102 Reading Notes](./102)
 
     * [Markdown](./102/class01)
-    * [Revisions In The Cloud](./102/class03)
+    * [Revisions and The Cloud](./102/class03)
     * [The Coders Computer](./102/class02)
     * [Structure Web Pages With HTML](./102/class04)
     * [Design Web Pages With CSS](./102/class05)
