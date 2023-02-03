@@ -249,7 +249,7 @@ int main() {
 ## Footnotes
 
 Footnotes aren't officially part of markdown, but are supported by GFM. To make a footnote use square brackets with a caret symbol and a number or word to link to the reference.
-'
+
 ```markdown
 Your first footnote[^1]
 
@@ -272,13 +272,113 @@ And finally using a word instead of a number[text]
 [^1]: I did it!
 [^2]: if you want to use more than one line
   be certain to include 2 spaces after each line break
-[text]: 
+[^text]: 
     I told you that you did'nt have to use numbers. They will still show up numbered in your text
     but this can make it easier for you (the author) to identify. You can also use this 
     "4 spaces after the newline" syntax
+ 
+ You can see these footnotes by scrolling to the bottom of this page, or by clicking the number
+
+## Tables
+
+Tables are not part of Markdown but are include in GFM. You can use table to organize and present some simple data in stead of having to copy a spredsheet from some other application
+
+```markdown
+| Col 1 | Col 2 | Col 3 |
+|-------|:-----:|------:|
+|left   |center |right  |
+|very   |simple |table  |
+
+You don't need the exterior pipes (|). This table is formatted very well in the markdown, but you can use less pretty markdown as you follow the basic syntax. You need atleast 3 dashes under the each header column
+
+Col 1 | Col 2 | Col 3 
+---|---|---
+still|renders |okay
+less|orgaized|table  
+```
+
+| Col 1 | Col 2 | Col 3 |
+|-------|:-----:|------:|
+|left   |center |right  |
+|very   |simple |table  |
+
+You don't need the exterior pipes (|). This table is formatted very well in the markdown, but you can use less pretty markdown as you follow the basic syntax. You need atleast 3 dashes under the each header column
+
+Col 1 | Col 2 | Col 3 
+---|---|---
+still|renders |okay
+less|orgaized|table  
+
+## Blockquotes
+
+```markdown
+> Every line of a block quote
+> must start with a greater than sign
+
+you can also easily break out of them
+
+> and then return to them later
+```
+
+> Every line of a block quote
+> must start with a greater than sign
+
+you can also easily break out of them
+
+> and then return to them later
+
+## Inline HTML
+
+```html
+<section>
+    <h1>Inline HTML</h1>
+    <p>adding HTML directly into your markdown can work pretty well here's a link to the 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML DOCS</a> 
+        if you want to learn more about HTML
+    </p>
+</section>
+```
+<section>
+    <h1>Inline HTML</h1>
+    <p>adding HTML directly into your markdown can work pretty well here's a link to the 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN HTML DOCS</a> 
+        if you want to learn more about html
+    </p>
+</section>
+
+## Line Breaks
+```markdown
+You can experiment with "Markdown Toggle" to experiment and insert line breaks to see how they work
+
+But inserting two newlines between lines starts a new paragraph
+and inserting only one just starts a new line
+```
+
+You can experiment with "Markdown Toggle" to experiment and insert line breaks to see how they work
+
+But inserting two newlines between lines starts a new paragraph
+and inserting only one just starts a new line
+
+## Youtube Videos
+
+You can't directly imbed youtube videos but you can link them with a their thumbnail photo
+
+```markdown 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=HUBNt18RFbo" target="_blank"><img src="https://img.youtube.com/vi/HUBNt18RFbo/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+```
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=HUBNt18RFbo" target="_blank"><img src="https://img.youtube.com/vi/HUBNt18RFbo/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+you can also use a normal link as seen in the link section
 
 ## Things I want to learn more about
+
 
 * block quotes
 * code
 * images
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
