@@ -269,10 +269,10 @@ Another footnote with multiple lines in the description[^2]
 
 And finally using a word instead of a number[text]
 
-[^1]: I did it!
-[^2]: if you want to use more than one line
-  be certain to include 2 spaces after each line break
-[^text]: 
+[^1]: I did it! 
+[^2]: If you want to use more than one line 
+    be certain to include 2 spaces after each line break
+[^text]:  
     I told you that you did'nt have to use numbers. They will still show up numbered in your text
     but this can make it easier for you (the author) to identify. You can also use this 
     "4 spaces after the newline" syntax
@@ -348,10 +348,10 @@ you can also easily break out of them
 
 ## Line Breaks
 ```markdown
-You can experiment with "Markdown Toggle" to experiment and insert line breaks to see how they work
+You can experiment with "Markdown Toggle" to experiment and insert line breaks to see how they work 
 
-But inserting two newlines between lines starts a new paragraph
-and inserting only one just starts a new line
+But inserting two newlines between lines starts a new paragraph 
+and inserting only one just starts a new line 
 ```
 
 You can experiment with "Markdown Toggle" to experiment and insert line breaks to see how they work
