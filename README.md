@@ -6,7 +6,7 @@ This site is a collection of notes and learning resources from [Code-Crew's](htt
 
 ## About Me
 
-My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack web developer, entreprenuer, and lifelong learner. My passions include technology, music, education, and community development. I enjoy playing my guitar, meeting new people, and learning new things. I believe in community, diversity, equality, and self discovery. My personal mission is to help underserved individuals in our community realize their potential by providing the tools and resources they need to become their best selves.
+My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack web developer, entreprenuer, and lifelong learner. My passions include technology, music, education, and community development. I enjoy playing my guitar, meeting new people, and learning new things. I believe in community, diversity, equality, and self discovery. My personal mission is to help underserved individuals in my community realize their potential by providing the tools and resources they need to become their best selves.
 
 ### Table of Contents
 
@@ -41,11 +41,11 @@ My name is Josh Cannon. I'm a Nashvile native living in Memphis. I'm a fullstack
 
 ### Motivation Material
 
-Here is some motivation to keep you going while you study. My motivation comes in a cup so you can always [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cannontech) if you find anything you like
+Here is some motivation to keep you going while you study. My motivation comes in a cup so you can always [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cannontech) if you feel this helps you in your endevours. Or even if you don't. I apprectiate your support greatly and it's keep me going. Thanks for reading!
 
 #### Growth Mindset
 
-Your intelligence and talent are not fixed traits. They can be developed through perserverance and effort. Everyone encounters challenges, and most people give up or avoid the issue at hand. You can embrace the challenge, learn to be mindful of your avoidance and instead continue through until you complete the objective. Sure when someone encounters an obstacle they can avoid it completely. They can go grab a cup of coffee or vacuum their living room, but those with a growth mindset can ignore that chance for instant gratification and continue with the task at hand. When the alarm clock goes off early in the morning someone else might realize how much effort it requires to get out of bed and go to work, or they could be like you, jump out of bed and seize the day. Because you know that you can sweat a little now and then enjoy a sense of accomplishment, or you can stay in bed and suffer from regret later on. The right choice is obvious. It's not even a real question for a go getter like yourself. It's easy to hear about what you did right, but it's not so easy to hear what you've done wrong. Fortuneately, you know that every one makes mistakes and does sub optimal work sometimes, and you also know that feedback and constructive criticism gives you the knowledge you need to grow, learn and move forward.
+Those with a growth mindset believe that intelligence and talent are not fixed traits. They can be developed through perserverance and effort. Everyone encounters challenges, and when faced with adversity, many people give up or try to avoid the issue at hand. Having a growth mindset will allow you to embrace the challenge, learn to be mindful of your avoidance and instead continue through until you complete the objective. When someone encounters an obstacle they will often try to avoid it completely. They will go grab a cup of coffee or vacuum their living room, or anything to distract themselves. While those with a growth mindset can resist the temptation of instant gratification and continue with the task in front of them. When the alarm clock goes off early in the morning it can be tempting to hit the snooze button when you realize how much effort it requires to get out of bed and go to work, or you can jump out of bed and seize the day. Because you know that you can sweat a little now and then enjoy a sense of accomplishment, or you can stay in bed and suffer from regret later on. The right choice is obvious. It's not even a real question for someone that has come to accept and embrace the growth mindset. It's easy to hear about what you did right, but it can be disheartening and evening aggrivating to hear what you've done wrong. With a growth mindset you can understand that every one makes mistakes and does sub optimal work sometimes, and even if you don't think you do there is always room for improvement. Feedback and constructive criticism give you the knowledge you need to grow, learn and move forward. When you see a coworker excel at work, become sucessful, move up the corporate latter and seemingly achieve what you cannot, it can be tempting to be envious and let it effect your self of esteem. Those that have acquired a growth mindset can take a step back and realize that kind of thinking is thinking is toxic and only holds them back. You should instead look to that person as an inspiration and see what you can learn from. Use them as part of your mental model for achievement. The growth mindset is all about being mindful when you start displaying negative thoughts and behaviours and turn them on their head so that you can work towards being the person you know you can become.
 
 #### Growth reminders
 
@@ -55,7 +55,7 @@ Your intelligence and talent are not fixed traits. They can be developed through
 
 * Listen - Don't get mad when you hear criticism. Listen and determine if you can learn from what people have to say
 
-* Challenge Accepted - Embrace the challenging aspects of your work. Again, stay focused on the ends and see them through
+* Challenge Accepted - Embrace the challenging aspects of your work. Again, stay focused on the end goal and see it through
 
 ![Growth Mindset Visual](https://atlassianblog.wpengine.com/wp-content/uploads/NewGrowthMindset2.png)
 image from [atlassianblog.wpengine.com](https://atlassianblog.wpengine.com/wp-content/uploads/NewGrowthMindset2.png)
