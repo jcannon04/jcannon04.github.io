@@ -83,7 +83,7 @@ you can use `commit -a` to add all modified and tracked files to the snapshot
 
 **Pushing Changes**
 
-`$ git push origin master` pushed your changes to the remote repository
+`$ git push origin master` pushes your changes to the remote repository
 
 Origin is the default name for your remote repository. Master is the name of your current local branch
 
