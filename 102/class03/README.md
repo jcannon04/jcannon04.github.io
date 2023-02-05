@@ -126,7 +126,7 @@ use `git remote rm [repo name]` to remove remote repo
 
 **Undo a Committed Snapshot**
 
-`git revert HEAD` will "undo" the latest commit. It actually creates a new commit, appends it and rolls the back the changes from an specified commit in this case `HEAD`. Any commit in the history of the repo can be specified.
+`git revert HEAD` will "undo" the latest commit. It actually creates a new commit, appends it and rolls back the changes from an specified commit in this case `HEAD`. Any commit in the history of the repo can be specified.
 
 **Unmodifying a file**
 
@@ -134,11 +134,95 @@ use `git remote rm [repo name]` to remove remote repo
 
 ## Branching
 
+Almost every type of version control system includes branchine. Branching allows for multiple collaborators to work on the same repository at the same time in different branches and not affect the main repository. A collaborator can create a branch, work in that branch, switch between branches and merge branches. A git branch is like a pointer that points to the most recent commit. The HEAD is a special pointer that indicates which branch your currently working in.
+
+**Creating a new branch**
+
+The command `git branch [branch name]` will create a new branch pointing to your most recent commite but will not switch to it.
+
+**Switching branches**
+
+`git checkout [branch-name]` will point the head to your the name branch. If you commit to the new branch the branch you checked out from will still be pointing to the last commit you made before checking out. So, if you switch back to the original branch you will not see the changes that were made in your new branch.
+
+**Create a new branch and checkout**
+
+You can create a new branch and check it out in one line with the `git checkout -b [branch-name]` command.
+
+**List branches**
+
+`git branch` will list all available branches.
+
+## Merging
+
+Use `git merge` to merge changes from another branch into your current one
+
+**Fast-forward merging**
+
+In fast-forward merging the pointer from your current branch is moved up to the last commit of the branch that you are merging with yours. There is no divergent work the latter brach is directly upstream from yours.
+
+**Not fast-forward** 
+
+`git merge --no-ff <branch>` with no fast-forward instead of simply moving your current pointer up a new commit is created. Used to prevent data loss about merges and branches.
+
+**Three-way merge**
+
+In the case of branches diverging a fast-forward commit can not be used. Involves a your working branch, the branch you are merging in and the common ancestor. Instead of moving the pointer forward a new snapshot is made and a commit that points to it. this is refered to as a merge commit and has more than one parent.
+
+**fetch and merge**
+
+`git pull` will fetch and merge remote changes
+
+**Deleting branches** 
+
+`git branch -d <branch>` will delete a branch. It is okay to do with branches that have been successfully merged
+
+**Merge Conflicts** 
+
+When two merged branches both have different changes in the same place in a file git can not merge then cleanly
+
+
+```diff
+My name is
+
+ <<<<<<< HEAD
+
+ Jane
+
+ =======
+
+ Mary
+
+ >>>>>>> branch-test
+```
+
+HEAD marks the current checked out branch and the content above ======== lives in this branch. The content below exists in the file you are attempting to merge in to yours. After fixing the files and removing ======== and >>>>>>>>. You will be able to merge them successfully.
+
+`git status` will show you unmerged files
+
+**Preview Changes**
+
+git diff <source_branch> <target_branch>
+
+will allow you to preview changes for merging
+
+**Listing branches**
+
+`git branch` will list all local branches. there will be an asterisk next to the one you are currently woking on
+
+**See latest commits**
+
+`git branch -v` will show you the newest commits for each branch
+
+`git branch --merged` will show you which branches you have merged into your current working branch. There will be a * next to your current working branch. Branches show in this command without a * are generally okay to delete because you have already successfully merged them and all of your work is already in your current branch.
+
+`git branch --no-merged` shows all branches that you have not yet merged in to your current working branch
+
+## Rebasing
+
 TODO
 
 ## Things I Want To Know More About
 
-* Merging and Branching
 * Rebasing
 * Tagging
 * GitHub Workflow
@@ -146,4 +230,3 @@ TODO
 **resources**
 
 [GitHub Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#4)
-
