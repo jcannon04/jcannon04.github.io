@@ -229,4 +229,4 @@ TODO
 
 **resources**
 
-[GitHub Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#4)
+[GitHub Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/#11)
