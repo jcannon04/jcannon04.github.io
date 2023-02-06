@@ -364,7 +364,7 @@ and inserting only one just starts a new line
 Task lists allow for you to make checkboxes in Mark down. Simply start with an asterisk like a regular list then the put either empty square brackets for uncompleted tasks or put an x in the brackets for a completed task
 * [x] Task 1
 * [x] Task 2
-* [] Task 3
+* [ ] Task 3
 
 ## Youtube Videos
 
