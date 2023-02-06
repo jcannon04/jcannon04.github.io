@@ -219,13 +219,72 @@ will allow you to preview changes for merging
 
 ## Rebasing
 
+Git rebasing allows you to reapply changes from one branch onto another branch. The process starts by finding the common ancestor of the two branches, then resets the current branch to the same commit as the branch being rebased into. Finally the changes from the current branch are reapplied onto the branch being rebased in to. This results in a cleaner, linear commit history. 
+
+**Example**
+
+```bash
+$ git checkout test
+
+$ git rebase master
+```
+**pro merge argument** 
+
+the true commit history should not be altered. It is a list of occurences
+
+**pro rebase argument** 
+
+Commit history should be polished and well edited
+
+## Log
+
+`git log` allows you to view committed snapshots. It can be used to see your projects history, filter results, and find specific modifications.
+
+Use `git log --help` to see more information and a list of possible commands and options.
+
+## Tags
+
+Tags can mark certain points in git history as being important. Use `git tag` to see a list of tags in your project.
+
+**create a tag**
+
+There are two types of tags that you can create
+
+A **lightweight tag** is a pointer to a specific commit, much like a branch.
+
+An **annotated tag** is stored as an entire object that can include a tag message, the tagers name, email and the tag date. It can also be signed. Annotated tags should be used whenever possible.
+
+To create an annotated tag use the `git tag` command with a `a` option
+
+To see the tag use `git show [tagname]`
+
+To create a lightweigh tag simply use ~`git tag [tagname]. These tags only hold a checksum
+
+You can create a new branch at a specific tag with `git checkout -b [branchname][tagname] `
+
+## Aliases
+
+You can create aliases for git command to make your life easier. If they is a long command with many options that you have to run often, or if you simply want to rename a command to make more since, you can use aliases. 
+
+` git config --global alias.[alias-name] “full command you want to use an alias for”
+`
+
+An alias to view last commit:
+
+` git config –global alias.last “log -1 HEAD”`
+
+## Ignoring Files
+
+List files that you do not need or that shouldn't be include in your repository in a `.gitignore` file.
+
+see more info about .gitignore [here](http://git-scm.com/docs/gitignore%20and%20https://github.com/github/gitignore)
+
+
 TODO
 
 ## Things I Want To Know More About
 
-* Rebasing
-* Tagging
-* GitHub Workflow
+* Distributed Workflow and GitHub
 
 **resources**
 
