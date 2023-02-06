@@ -6,7 +6,7 @@ Linux has a GUI just like Windows and OSX and it operates in basically the same 
 
 ## What is a Command Line ?
 
-A command line, also called a terminal, is a text based interface providing access to your system. They present you with a **prompt** that allows you to type in **commands** followed usually followed by **arguments**. The command and all of it arguments must be seperated by a single space.
+A command line, also called a terminal, is a text based interface providing access to your system. They present you with a **prompt** that allows you to type in **commands** followed usually followed by **arguments**. The command and all of it arguments must be separated by a single space.
 
 ```
 1. Joshuas-MacBook-Air:linux-lesson joshuacannon$ ls -al
@@ -108,6 +108,7 @@ Quick Tip: You type in paths using tab completion. Type the first few letters of
 
 ## Things I want to know more about
 
-* How files work in linux
+* How files work in linux  
+
 **resources:**
-* see https://ryanstutorials.net/linuxtutorial/navigation.php
+* [Linux Tutorial](https://ryanstutorials.net/linuxtutorial/navigation.php)

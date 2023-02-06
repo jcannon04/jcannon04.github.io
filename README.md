@@ -17,8 +17,8 @@ to fuel my passion for creating and sharing knowledge. Your donation is not only
 1. [Class 102 Reading Notes](./102)
 
     * [Markdown](./102/class01)
-    * [Revisions and The Cloud](./102/class03)
     * [The Coders Computer](./102/class02)
+    * [Revisions and The Cloud](./102/class03)
     * [Structure Web Pages With HTML](./102/class04)
     * [Design Web Pages With CSS](./102/class05)
     * [Dynamic Web Pages With Javascript](./102/class06)
