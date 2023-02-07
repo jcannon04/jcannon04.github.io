@@ -225,6 +225,7 @@ This will help search engines index your page and let screen reader know which l
 
 ## HTML Text Fundamentals
 
+TODO
 
 ## Things I Want to Know More About
 

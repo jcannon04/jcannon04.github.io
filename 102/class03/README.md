@@ -10,11 +10,11 @@ Older VCS's were local meaning there was only one database on your local compute
 
 **Centralized Version Control** (CVCS)
 
-Centralized Version Control Systems allowed collaboration by storing the files on a single server and allowing everyone on the same project to see others work. They also allowed administrators to divy up the work more efficiently. An improvement from a single database for each indivudual. Uses a central server instead of a collection of local databases
+Centralized Version Control Systems allowed collaboration by storing the files on a single server and allowing everyone on the same project to see others work. They also allowed administrators to divy up the work more efficiently. An improvement from a single database for each individual. Uses a central server instead of a collection of local databases
 
 **Distributed Version Control** (DVCS)
 
-Addresses the major issue with a CVS. All the files for a project on a server creates a single point of failure and can result in catostropic loss of data. DVCS creates back ups mirrors of the project repositories to reduce the chance of loosing data. Also having mirrored repositories allows for multiple individuals with different workflows to work on the same project.
+Addresses the major issue with a CVS. All the files for a project on a server creates a single point of failure and can result in catastrophic loss of data. DVCS creates back ups mirrors of the project repositories to reduce the chance of loosing data. Also having mirrored repositories allows for multiple individuals with different workflows to work on the same project.
 
 ## What is Git?
 
@@ -107,7 +107,7 @@ You can create new remote repos with this format `git remote add short name url`
 
 **Pushing**
 
-`git push [remote-name][branch-name]` will push your changes upstreaming for sharing. You can only use push if you have write access to the remote repo and you have pulled and merged ass changes since the last push.
+`git push [remote-name][branch-name]` will push your changes upstream for sharing. You can only use push if you have write access to the remote repo and you have pulled and merged ass changes since the last push.
 
 **Renaming and Removing**
 
@@ -138,7 +138,7 @@ Almost every type of version control system includes branchine. Branching allows
 
 **Creating a new branch**
 
-The command `git branch [branch name]` will create a new branch pointing to your most recent commite but will not switch to it.
+The command `git branch [branch name]` will create a new branch pointing to your most recent commits but will not switch to it.
 
 **Switching branches**
 
@@ -166,7 +166,7 @@ In fast-forward merging the pointer from your current branch is moved up to the 
 
 **Three-way merge**
 
-In the case of branches diverging a fast-forward commit can not be used. Involves a your working branch, the branch you are merging in and the common ancestor. Instead of moving the pointer forward a new snapshot is made and a commit that points to it. this is refered to as a merge commit and has more than one parent.
+In the case of branches diverging a fast-forward commit can not be used. Involves a your working branch, the branch you are merging in and the common ancestor. Instead of moving the pointer forward a new snapshot is made and a commit that points to it. this is refereed to as a merge commit and has more than one parent.
 
 **fetch and merge**
 
@@ -207,7 +207,7 @@ will allow you to preview changes for merging
 
 **Listing branches**
 
-`git branch` will list all local branches. there will be an asterisk next to the one you are currently woking on
+`git branch` will list all local branches. there will be an asterisk next to the one you are currently wooing on
 
 **See latest commits**
 
@@ -230,7 +230,7 @@ $ git rebase master
 ```
 **pro merge argument** 
 
-the true commit history should not be altered. It is a list of occurences
+the true commit history should not be altered. It is a list of occurrences
 
 **pro rebase argument** 
 
@@ -258,7 +258,7 @@ To create an annotated tag use the `git tag` command with a `a` option
 
 To see the tag use `git show [tagname]`
 
-To create a lightweigh tag simply use ~`git tag [tagname]. These tags only hold a checksum
+To create a lightweight tag simply use ~`git tag [tagname]. These tags only hold a checksum
 
 You can create a new branch at a specific tag with `git checkout -b [branchname][tagname] `
 

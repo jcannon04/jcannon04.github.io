@@ -1,6 +1,6 @@
 # Markdown Notes
 
-GitHub Flavored Markdown(GFM) helps you to format your text in a .md file on GitHub. You can use Markdown to add links, images, youtube videos, and other content into your document. It also let you decorate your text and format it logically with headings, paragraphs, tables, and lists. You can also insert code blocks, block quotes, footnotes, and more. You also might want to checkout the [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) that these notes are based on and the [GFM Specs](https://github.github.com/gfm/) for further reference. 
+GitHub Flavored Markdown(GFM) helps you to format your text in a .md file on GitHub. You can use Markdown to add links, images, youtube videos, and other content into your document. It also let you decorate your text and format it logically with headings, paragraphs, tables, and lists. You can also insert code blocks, block quotes, footnotes, and more. You also might want to checkout the [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) that these notes are based on and the [GFM Specs](https://github.github.com/gfm/) for further reference. 
 
 Thanks for reading and if you like anything about these notes you can always [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/cannontech) so I can stay up and write more helpful notes for you guys. Thanks for your support.
 
@@ -80,10 +80,10 @@ Ordered list items are proceeded by a number and a period. Unordered list items 
 ```markdown
 1. First list ordered list item
     * insert spaces when making a sub list
-    - another sublist item
+    - another sub list item
     + and a third
 2. Second ordered list item
-    1. ordered sublists work as well
+    1. ordered sub lists work as well
 ```
 ## Links
 

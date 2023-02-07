@@ -6,7 +6,7 @@ This site is a collection of notes and learning resources from [Code-Crew's](htt
 
 ## About Me
 
-Hi there! I'm Josh Cannon, a full-stack web developer and lifelong learner with a passion for technology, music, education, and community development. A Nashville native now residing in Memphis, I'm dedicated to helping underserved individuals in my community realize their full potential by providing the tools and resources they need to succeed. In my free time, I enjoy playing my guitar, meeting new people, and always seeking new opportunities to learn and grow. With a strong belief in community, diversity, equality, and self-discovery, I am driven to make a positive impact in all that I do.
+Hi there! I'm Josh Cannon, a full-stack web developer and lifelong learner with a passion for technology, music, education, and community development. A Nashville native now residing in Memphis, I'm dedicated to helping under served individuals in my community realize their full potential by providing the tools and resources they need to succeed. In my free time, I enjoy playing my guitar, meeting new people, and always seeking new opportunities to learn and grow. With a strong belief in community, diversity, equality, and self-discovery, I am driven to make a positive impact in all that I do.
 
 ## Table of Contents
 
