@@ -4,7 +4,7 @@ Javascript is an interpreted, prototype based, single threaded programming langu
 
 Javascript can be broken into 3 main parts
 
-* The language - standard amoung different environment and defined by ECMA
+* The language - standard among different environment and defined by ECMA
 * DOM API - How the language interacts with the browser / client side
 * Server API - provided by NODE.js is used for building back-end programs in Javascript
 
