@@ -70,4 +70,7 @@ String operators (e.g. +)
 Conditional (ternary) operator (e.g. ? :)
 Unary operators (e.g. typeof, +, -)
 The web page provides detailed information and examples for each type of operator in JavaScript.
+
 ## Things I want to know more about 
+* Expressions and operations
+* For and While loops
