@@ -14,4 +14,30 @@ Three ways to output in Javascript:
 * `document.write()` writes to page sourcecode after the first line before the last line. Can be used to add HTML to your page dynamically
 * `console.log()` this command prints out a message in the JavaScript console you are using. Usually messages for the developer
 
+## Convert Strings to Numbers
+
+`parseInt(string, radix)`
+`parseFloat(string, radix)`
+
+radix define which base number system to use and string is the string you want to convert to a number
+
+## Data Types
+
+Javascript has 8 data types 7 primitive and one not
+
+Primitive:
+
+* Number
+* String
+* Symbol
+* Boolean
+* null
+* undefined
+* BigInt
+
+Non-primitive: 
+
+* Object
+
+
 ## Things I Want To Know More About

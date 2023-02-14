@@ -71,6 +71,165 @@ Conditional (ternary) operator (e.g. ? :)
 Unary operators (e.g. typeof, +, -)
 The web page provides detailed information and examples for each type of operator in JavaScript.
 
+## Events
+
+Events are actions or occurrences that happen in the system you are programming in. The system fires a signal and provides a mechanism by which an action can be taken automatically. Events happen in the browser and are associated with a specific item or group of items. These items could include a single elements, a group of elements, an html document, or the browser window. Example include:
+
+* The user selects, clicks, or hovers the cursor over a certain element.
+* The user chooses a key on the keyboard.
+* The user resizes or closes the browser window.
+* A web page finishes loading.
+* A form is submitted.
+* A video is played, paused, or ends.
+* An error occurs.
+
+In order to react to an event a programming must create an **event handler** and register it to respond to the event.
+
+### adding event listeners
+Some different events that be used with 'EventTarget.addEventListener()` include: 
+
+* click
+* mouseover
+* mouseout
+* focus
+* blur
+* dblclick
+* play (for video elements)
+
+### removing event listeners
+
+To remove an event listener use **EventTarget.removeEventListener()** and pass in the type of event and the callback being removed.
+
+You can also use an AbortSignal to remove events
+
+```javascript
+const controller = new AbortController();
+
+btn.addEventListener('click', () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+}, { signal: controller.signal });
+```
+
+To remove the event created in this manner use 
+
+`controller.abort();`
+
+By adding more than one event listener for the same event both handlers will run when the event is fired
+
+## Event Bubbling
+
+If you have the same type of event handlers (like 'click') on a parent and a child element. When clicking the child the event will bubble up through the parents and fire a click event on all it's ancestors as well.
+
+you can use **Event.stopPropagation** to disable the event bubbling behavior
+
+Event capturing is the opposite of event bubbling. The event is fired on the outer most element and goes inward toward the most nested element
+
+Event capturing is disable by default but can be enabled by passing the capture option to addEventListener
+
+**Event Propagation** allows us to create an event listener on a parent that will run when that event happens on any of its children
+
+```javascript
+function random(number) {
+  return Math.floor(Math.random()*number);
+}
+
+function bgChange() {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  return rndCol;
+}
+
+const container = document.querySelector('#container');
+
+container.addEventListener('click', (event) => event.target.style.backgroundColor = bgChange());
+
+```
+`elem.addEventListener(e, callback, {capture: true})`
+
+## Promises 
+
+A promise represents an eventual completion or failure of an asynchronous operation. A promise is a returned object in which you attach callbacks instead of passing callbacks into a function.
+
+`createAudioFileAsync()` is a function that creates an audio file give a config record, and two callbacks. One that is called incase of a successful creation and one that is called incase of a failure.
+
+```javascript
+function successCallback(result) {
+  console.log(`Audio file ready at URL: ${result}`);
+}
+
+function failureCallback(error) {
+  console.error(`Error generating audio file: ${error}`);
+}
+
+createAudioFileAsync(audioSettings, successCallback, failureCallback);
+
+```
+
+if `createAudioFileAsync` was rewritten to use promises it would look like
+
+```javascript
+createAudioFileAsync(audioSettings).then(successCallback, failureCallback);
+```
+
+## Chaining 
+
+It's a common situation to have multiple asynchronous operations back to back, where each operation starts once the last operation succeeds. Before promises this would result in a callback pyramid of doom. With promises this problem is solved by because promises return a promise object and we can chain promises together with .then() method instead of passing a callback into a function.
+
+```javascript
+const promise = doSomething();
+const promise2 = promise.then(successCallback, failureCallback);
+```
+Always return results from a promise. If you do not return the resulting promise there is no way to track the progress and this results in a floating promise
+
+it is possible to chain after a failure. This can be useful to perform more actions even after one action in the chain has failed
+
+## Nesting 
+
+Nesting is a control structure to limit the scope of catch statements. Specifically, a nested catch only catches failures in its scope and below, not errors higher up in the chain outside the nested scope. When used correctly, this gives greater precision in error recovery:
+
+## Error Handling
+
+There are two types of rejected promises that occur when they are not handled `unhandledrejection` and `rejectionhandled`. In the web browser they bubble up to the global scope. An unhandled rejection is sent when a promise is rejected but there is no handler available. A rejection handled is attached to a rejected promise that has already caused an unhandled rejection event.
+
+Both types of events have a promise property and a reason property. The promise property indicates the promise that was rejected and the reason property tells us the reason.
+
+## Composition 
+
+There are four composition tools for running asynchronous operations concurrently
+
+* `Promise.all()`
+* `Promise.allSettled()`
+* `Promise.any()`
+* `Promise.race()`
+
+`promise.all()` immediately rejects the returned promise when it fails and aborts the other operations
+
+`promise.allSettled` ensures that all operations are complete before resolving
+
+You can also compose promises sequentially meaning that each operation will wait on the last before executing here are a few examples: 
+
+```javascript
+const applyAsync = (acc, val) => acc.then(val);
+const composeAsync =
+  (...funcs) =>
+  (x) =>
+    funcs.reduce(applyAsync, Promise.resolve(x));
+```
+The composeAsync() function accepts any number of functions as arguments and returns a new function that accepts an initial value to be passed through the composition pipeline:
+
+## Wrap an old style callback function with a promise
+
+you can wrap a a callback function from an old api like so 
+
+```javascript
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+wait(10 * 1000)
+  .then(() => saySomething("10 seconds"))
+  .catch(failureCallback);
+
+```
+
 ## Things I want to know more about 
 * Expressions and operations
 * For and While loops
