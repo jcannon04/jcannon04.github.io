@@ -22,8 +22,8 @@ to fuel my passion for creating and sharing knowledge. Your donation is not only
 * [Structure Web Pages With HTML](./102/class04)
 * [Design Web Pages With CSS](./102/class05)
 * [Dynamic Web Pages With Javascript](./102/class06)
-* [class 07](./102/class07)
-* [class 08](./102/class08)
+* [Programming With Javascript](./102/class07)
+* [Operators and Loops](./102/class08)
 
 ## [Code 201 - Foundations of Software Development](./201)
 

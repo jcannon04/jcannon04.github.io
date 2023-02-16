@@ -1,4 +1,5 @@
 # Operators and Loops
+
 ## Comparison operators 
 
 symbols used in JavaScript to compare two values and determine whether they are equal, not equal, greater than, less than, greater than or equal to, or less than or equal to each other.
