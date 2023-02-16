@@ -6,5 +6,5 @@
 * [Structure Web Pages With HTML](./class04)
 * [Design Web Pages With CSS](./class05)
 * [Dynamic Web Pages With Javascript](./class06)
-* [class 07](./class07)
-* [class 08](./class08)
+* [Programming With Javascript](./class07)
+* [Operators and Loops](./class08)
