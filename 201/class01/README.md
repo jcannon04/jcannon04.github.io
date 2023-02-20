@@ -43,30 +43,41 @@ sends data between computers.
     An html element includes an opening and possibly a closing tag. The attribute and their associated value and the content to be displayed in your element on the page
 
 8. What is the Difference between <article> and <section> element tags?
+
     An article defines a part of a webpage that could stand on it's own like a blog post or magazine article. The section tag is used to break up a page or part of a page into logical sections and subsections like contact info or details. An article can be made of multiple sections and a section could be made up of multiple articles. It depends on the layout requirements of a particular design.
 
 9. What Elements does a “typical” website include?
+
     Most typical websites would include a  header: `<header>`, navigation bar `<nav>`, main content section`<main>` with possible `<article>`s and `<section>`s or `<div>`s, possibly an `<aside>` and a `<footer>`.
     
 10. How does metadata influence Search Engine Optimization?
+
     Specifying a **description** in your meta data and having keywords that are related to what your site is about is important for SEO. Doing this will allow your site to appear high in the rankings in searches relevant to your site.
 
 11. How is the <meta> HTML tag used when specifying metadata?
+
     Meta elements are the official way of adding meta data to your website. With a meta tag you can specify the main language of your site, the character set you want to use, a description, an author, and more.
 
 12. What is the first step to designing a Website?
+
     You need to know your goals and visions for your website. What do you want to accomplish with your site? Essentially you need to brainstorm about why your building a website and what you want from it before you get caught up in the technicalities.
 
 13. What is the most important question to answer when designing a Website?
+
     What exactly do I want to accomplish? (according to the this (article)[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Thinking_before_coding])
 
 14. Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
+
     The `<h1>` tag is semantic it tells you and the browser that you are defining a heading. The span tag is ambiguous and doesn't tell you much of anything about what you are trying to accomplish with the format of your content.
 
 15. What are the benefits of using semantic tags in our HTML?
+
     They tell developers and the browser information about how you elements fit into the format of your page and the meaning of the content between your tags. The are also helpful with accessibility and SEO.
+
 16. Describe 2 things that require JavaScript in the Browser?
+
     Submitting user input to your server. Prompting user for info.
 
 17. How can you add JavaScript to an HTML document?
+
     Linking a javascript file with a script tag. Writing code directly between script tags.
