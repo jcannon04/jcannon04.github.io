@@ -42,7 +42,7 @@ sends data between computers.
 
     An html element includes an opening and possibly a closing tag. The attribute and their associated value and the content to be displayed in your element on the page
 
-8. What is the Difference between <article> and <section> element tags?
+8. What is the Difference between `<article> `and `<section> `element tags?
 
     An article defines a part of a webpage that could stand on it's own like a blog post or magazine article. The section tag is used to break up a page or part of a page into logical sections and subsections like contact info or details. An article can be made of multiple sections and a section could be made up of multiple articles. It depends on the layout requirements of a particular design.
 
