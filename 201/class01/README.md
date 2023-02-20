@@ -60,7 +60,7 @@ sends data between computers.
 13. What is the most important question to answer when designing a Website?
     What exactly do I want to accomplish? (according to the this (article)[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Thinking_before_coding])
 
-14. Why should you use an <h1> element over a <span> element to display a top level heading?
+14. Why should you use an `<h1>` element over a `<span>` element to display a top level heading?
     The `<h1>` tag is semantic it tells you and the browser that you are defining a heading. The span tag is ambiguous and doesn't tell you much of anything about what you are trying to accomplish with the format of your content.
 
 15. What are the benefits of using semantic tags in our HTML?
