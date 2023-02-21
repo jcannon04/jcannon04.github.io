@@ -1,6 +1,7 @@
 # Basics of HTML, CSS & JS
 
 ## Reading Q&A
+
 Why is it important to use semantic elements in our HTML?
     Semantic elements in HTML give our content the correct meaning. We use a `<h1>` to represent a heading. We could use a `<span>` and style the content within to look like a heading, but that tag does not tell us anything about what it wraps.
 
@@ -20,27 +21,32 @@ Why should we avoid using inline styles?
     The make your html code less readable. You can only target one element to style at a time and if you want to make style changes to more than one element you have to make changes in multiple places.
 
 Review the block of code below and answer the following questions:
-    ```css
-    h2 {
-      color: black;
-      padding: 5px;
-    }
-    ```
-    What is representing the selector?
 
-    `h2` selects al h2 tags in the document
+```
+h2 {
+    color: black;
+    padding: 5px;
+}
+```
 
-    Which components are the CSS declarations?
+What is representing the selector?
 
-    `color: black;` - a css declaration is a key value pair that represent a styling property and a value
+`h2` selects all h2 tags in the document
 
-    Which components are considered properties?
-    `color` and `padding` are css style property's there value is found after the colons
+Which components are the CSS declarations?
+
+`color: black;` - a css declaration is a key value pair that represent a styling property and a value
+
+Which components are considered properties?
+
+`color` and `padding` are css style property's there value is found after the colons
 
 What data type is a sequence of text enclosed in single quote marks?
+
     A string is enclosed in single or double quotes in javascript.
 
 List 4 types of JavaScript operators.
+
     Arithmetic operators, increment/decrement operators, assignment operators, and comparison operators.
 
 Describe a real world Problem you could solve with a Function.
@@ -48,12 +54,15 @@ Describe a real world Problem you could solve with a Function.
     This question is a little open ended. Not sure you want me to use an example from daily life like following a recipe or if you want a coding problem that you could solve like all the coding problems can be solved with functions.
 
 An if statement checks a __ and if it evaluates to ___, then the code block will execute.
+
     Checks a  boolean expression and if it evaluates to true the code block will execute.
 
 What is the use of an else if?
+
     To make more decision branches in your program than a simple if/else. You can use them to check for multiple conditions.
 
 List 3 different types of comparison operators.
+
    ` < , > , <=`
 
 What is the difference between the logical operator && and ||?
