@@ -44,5 +44,6 @@ to fuel my passion for creating and sharing knowledge. Your donation is not only
 * [class 15](./201/class15)
 
 ## Code 301 - Intermediate Software Development
+* [Introduction to React and Components](./301/class01)
 
 ## Code 401 - Advanced Software Development
