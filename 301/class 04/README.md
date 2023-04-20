@@ -16,7 +16,8 @@
     console.log(false);
     }
     ```
-    '''javascript
+
+    ```javascript
     console.log( x===y ? true : false )
-    '''
+    ```
 ## Things I want to know more about
