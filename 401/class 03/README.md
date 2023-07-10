@@ -101,3 +101,48 @@ class Program
 ```
 This example writes the text "First line" to a file named "WriteFile.txt" using WriteAllText, and then appends the lines "New line 1" and "New line 2" to the same file using AppendAllLines.
 
+# How to: Read and Write to a Newly Created Data File
+This article provides an example of how to create an empty file stream, write data to it, and read data from it using the System.IO.BinaryWriter and System.IO.BinaryReader classes for writing and reading non-character data.
+
+### Example
+The following example demonstrates how to create a data file, write integers to it, and then read the contents of the file:
+```
+class MyStream
+{
+    private const string FILE_NAME = "Test.data";
+
+    public static void Main()
+    {
+        if (File.Exists(FILE_NAME))
+        {
+            Console.WriteLine($"{FILE_NAME} already exists!");
+            return;
+        }
+
+        using (FileStream fs = new FileStream(FILE_NAME, FileMode.CreateNew))
+        {
+            using (BinaryWriter w = new BinaryWriter(fs))
+            {
+                for (int i = 0; i < 11; i++)
+                {
+                    w.Write(i);
+                }
+            }
+        }
+
+        using (FileStream fs = new FileStream(FILE_NAME, FileMode.Open, FileAccess.Read))
+        {
+            using (BinaryReader r = new BinaryReader(fs))
+            {
+                for (int i = 0; i < 11; i++)
+                {
+                    Console.WriteLine(r.ReadInt32());
+                }
+            }
+        }
+    }
+}
+
+```
+
+This example creates a file named "Test.data" and uses a BinaryWriter object to write integers from 0 to 10 to the file in binary format. It then uses a BinaryReader object to read the contents of the file and prints each integer on a separate line.
