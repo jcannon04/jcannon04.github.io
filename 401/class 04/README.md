@@ -1,0 +1,9 @@
+# Classes & Memory Management
+
+* **What’s the difference between a static and an instance constructor?** A static constructor is only executed once and is used to set up all the static properties of the class that will not change on a per instance basis. An instance constructor is executed on the creation of all new objects of the class.
+
+* **How does the use of a static constructor differ from setting properties/values?** Setting properties or values can be done at any time, either during the object initialization or at a later stage during the object's lifetime. It is typically used to set initial values for instance-specific properties.
+
+* **Knowing what you now know about the stack and the heap, how might you rethink the way you did projects in previous courses, to make more effecient use of memory?** Understanding the memory usage of different data structures can help you select the most efficient one for your specific needs. Also, The stack is faster to allocate and deallocate compared to the heap, as it simply involves adjusting the stack pointer. By limiting the use of the heap for objects that truly require dynamic memory management, you can reduce memory fragmentation and improve performance.
+
+* **Compare “Garbage Collection” in C# with the lifecycle of normal household items.** Objects in programming can be likened to a set of dishes on a dining table. Each dish represents an object in memory. When we create objects, it's as if we're placing new dishes on the table. As our program executes, we use the dishes to serve and take up table space. Garbage collection is like a bus person It periodically scans the table, identifies the dirty dishes that are no longer in use, and removes them from the table, freeing up space for new dishes.
